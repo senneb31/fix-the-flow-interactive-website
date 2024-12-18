@@ -4,15 +4,14 @@ Ontwerp en maak een interactieve website voor een opdrachtgever.
 De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/INSTRUCTIONS.md)
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+DDA: een pagina waar alle events te zien zijn!
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Wat ik in deze website heb geïmplementeerd zijn animaties aan tabs. Hieronder laat ik zien wat ik daarmee bedoel.
+Schermopname 2024-12-18 om 12.00.03.mov
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+Door de tabs toe te laten verschuiven heb ik keyframes gebruikt. Ik heb transform: translateX gebruikt om de tabs te verschuiven. Ik wilde dat de tabs gingen verschuiven als je er overheen ging met je muis. Hiervoor heb ik in CSS :hover toegevoegd aan de class.
 
 ## Bronnen
 

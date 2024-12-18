@@ -206,6 +206,7 @@ a:nth-child(7):hover{
 .img1{
     margin: 0;
     width: 100%;
+    border: solid 1px black;
 }
 
 .p1{
@@ -378,4 +379,14 @@ a:nth-child(7):hover{
 
 .copyright{
     padding: 32px 16px 64px 16px;
+}
+
+@media all and (min-width: 560px)  {
+    .img1{
+        margin: 0;
+        width: 80%;
+        border: solid 1px black;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
