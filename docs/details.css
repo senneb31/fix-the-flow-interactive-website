@@ -234,9 +234,11 @@ a:nth-child(7):hover{
     
 }
 
-.agenda{
+
+.agenda-tijden{
     border: solid 1px black;
     margin: 16px;
+
 }
 
 .h3-detail{
@@ -384,9 +386,44 @@ a:nth-child(7):hover{
 @media all and (min-width: 560px)  {
     .img1{
         margin: 0;
-        width: 80%;
+        width: 95%;
         border: solid 1px black;
-        margin-left: 2rem;
-        margin-right: 2rem;
+       
+    }
+}
+
+@media all and (min-width: 650px){
+    .p1{
+        text-align: right;
+    }
+
+    .p2{
+        text-align: right;
+    }
+
+    .agenda{
+        display: grid;
+        justify-content: end;
+        justify-items: stretch;
+        align-items: center;
+    }
+
+    .inschrijven-section{
+        display: grid;
+        justify-content: end;
+        justify-items: stretch;
+        align-items: center;
+    }
+
+    .img2{
+        width: 50%;
+    }
+
+    .locatie-restaurant{
+        display: flex;
+    }
+
+    .restaurant-locatie{
+        padding-bottom: 6rem;
     }
 }
