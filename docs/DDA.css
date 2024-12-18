@@ -588,6 +588,10 @@ html{
         align-items: center;
         
     }
+
+    .details-tabs{
+        color: var(--changeable-color);
+    }
     
     .Button{
         font-family: "Martian Mono";
