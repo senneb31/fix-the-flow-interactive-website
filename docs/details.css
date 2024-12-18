@@ -1,4 +1,381 @@
 html{
     background-color: white;
     margin: 0;
-    } 
+    }
+
+body{
+        /* kleuren */
+     
+             --standard-color: #222226;
+             --second-standard-color: white;
+             --third-standard-color: #666666;
+             --changeable-color: #364BF7;
+        
+        /* fonts */
+        
+             --main-font: "Archivo";
+             --secondary-font: "Martian Mono";
+        
+        /* font-size-headings */
+            
+             --font-size-xxl: 96px;
+             --font-size-xl: 64px;
+             --font-size-l: 48px;
+             --font-size-m: 32px;
+             --font-size-s: 24px;
+             --font-size-xs: 16px;
+     
+        /* extra-font-sizes */
+     
+             --font-size-paragraph: 18px;
+             --font-size-subtext: 16px;
+     
+        /* line-height */
+     
+             --line-height-xxl: 96px;
+             --line-height-xl: 64px;
+             --line-height-l: 48px;
+             --line-height-m: 40px;
+             --line-height-s: 40px;
+             --line-height-xs: 40px;
+     
+        /* letter-spacing */
+        
+             --letter-spacing-main: -4%;
+             --letter-spacing-secondary: 0%;
+        
+        /* font-weight */
+             --standard-font-weight: 400;
+             --semibold-font-weight: 500;
+             --bold-font-weight: 600; 
+        
+        
+         font-family: "Archivo", Arial, Arial, Helvetica, sans-serif;
+         min-width: 320px;
+         grid-column: 4;
+         margin: 0;
+     
+}
+
+.header-details{
+    min-width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+
+
+#back-home{
+    padding-top: 6rem;
+    font-family: var(--secondary-font);
+    margin: 0;
+}
+
+a:nth-child(1):hover{
+    animation-name: vergroting;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes vergroting{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(1em);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+
+a:nth-child(2):hover{
+    animation-name: vergroting;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes vergroting{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(1em);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+
+a:nth-child(3):hover{
+    animation-name: vergroting;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes vergroting{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(1em);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+a:nth-child(4):hover{
+    animation-name: vergroting;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes vergroting{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(1em);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+a:nth-child(5):hover{
+    animation-name: vergroting;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes vergroting{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(1em);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+a:nth-child(6):hover{
+    animation-name: vergroting;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes vergroting{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(1em);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+a:nth-child(7):hover{
+    animation-name: vergroting;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes vergroting{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(1em);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+
+.h1{
+    margin: 0;
+    font-size: var(--font-size-m);
+    font-weight: var(--semibold-font-weight);
+}
+
+.bovenin{
+    display: grid;
+    justify-items: center;
+    gap: 16px;
+}
+
+.eventdate{
+    font-family: var(--secondary-font);
+    margin: 0;
+}
+
+.img1{
+    margin: 0;
+    width: 100%;
+}
+
+.p1{
+    font-family: var(--main-font);
+    font-size: var(--font-size-s);
+    margin: 0;
+    padding: 6rem 16px 16px 16px;
+
+
+}
+
+.p2{
+    font-family: var(--main-font);
+    font-size: var(--font-size-xs);
+    margin: 0;
+    padding: 16px;
+}
+
+.h2-detail{
+    margin: 0;
+    font-size: var(--font-size-m);
+    font-weight: var(--semibold-font-weight);
+    padding-left: 16px;
+    padding-top: 32px;
+    
+}
+
+.agenda{
+    border: solid 1px black;
+    margin: 16px;
+}
+
+.h3-detail{
+    margin: 0;
+    font-size: var(--font-size-m);
+    font-weight: var(--semibold-font-weight);
+    padding-left: 16px;
+    padding-top: 32px;
+    
+}
+
+.form-labels{
+    display: grid;
+    gap: 32px;
+    padding: 32px 16px;
+}
+
+.inschrijven{
+    margin: 16px;
+    display: grid;
+    padding: 16px;
+    border: solid 1px black;
+    width: fit-content;
+}
+
+.img2{
+   width: 100%; 
+   padding-top: 32px;
+}
+
+.p-locatie{
+    font-family: var(--secondary-font);
+    font-size: var(--font-size-xs);
+    border: solid 1px black;
+    width: fit-content;
+}
+
+.restaurant-locatie{
+    display: grid;
+    justify-items: center;
+    padding-top: 6rem;
+}
+
+.h4{
+    margin: 0;
+    font-family: var(--main-font);
+    font-size: var(--font-size-m);
+    font-weight: var(--semibold-font-weight);
+    text-align: center;
+    padding: 0 32px;
+}
+
+.route{
+    margin-top: 16px;
+    font-family: "Martian Mono";
+    font-size: var(--font-size-xs);
+    border: solid 1px black;
+    padding: 16px;
+}
+
+.images{
+    display: flex;
+    padding: 32px 0;
+}
+
+.boven-footer{
+    display: grid;
+    border-bottom: solid 1px black;
+    margin-top: 6rem;
+    border-top: solid 1px black;
+    padding-top: 16px;
+}
+
+.a-login{
+    padding: 32px 16px;
+    color: var(--changeable-color);
+}
+
+.footer-tabs{
+    font-family: var(--main-font);
+    display: grid;
+    gap: 12px;
+    padding: 32px 16px;
+    text-decoration: underline;
+    text-underline-position: under;
+    border-bottom: solid 1px black;
+}
+
+.dda-locatie{
+    margin: 0;
+    padding: 32px 16px;
+    display: grid;
+    gap: 8px;
+}
+
+.dda-contact{
+    margin: 0;
+    padding: 32px 16px;
+    display: grid;
+    gap: 8px;
+    text-decoration: underline;
+    text-underline-position: under;
+
+}
+
+.bedrijfsnaam{
+    font-weight: 600;
+}
+
+.locatie-contact{
+    border-bottom: solid 1px black;
+}
+
+.socials{
+    display: flex;
+    gap: 16px;
+    padding: 32px 16px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+#insta{
+    font-family: var(--main-font);
+    font-size: var(--font-size-xs);
+}
+
+#facebook{
+    font-family: var(--main-font);
+    font-size: var(--font-size-xs);
+}
+
+#linkedin{
+    font-family: var(--main-font);
+    font-size: var(--font-size-xs);
+}
+
+#copyright{
+    margin: 0;
+}
+
+.copyright{
+    padding: 32px 16px 64px 16px;
+}

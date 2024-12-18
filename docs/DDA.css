@@ -95,6 +95,8 @@ html{
         margin: 0px;
         display: flex;
         justify-content: space-between;
+        position: sticky;
+        top: 0;
         
         
     }
@@ -286,13 +288,22 @@ html{
             .Article-1-1{
                 margin: 16px;
                 padding: 8px;
+                display: flex;
             }
     
            
            
        
     }
-    
+
+.img-een{
+    width: 180px;
+}
+
+.first-event{
+    padding-left: 32px;
+}
+
     .Article-2 {
         border-top: solid 1px black;
         width: 100%;
@@ -301,8 +312,17 @@ html{
         .Article-1-2{
             margin: 16px;
             padding: 8px;
+            display: flex;
         }
        
+    }
+
+    .img-twee{
+        width: 180px;
+    }
+    
+    .second-event{
+        padding-left: 32px;
     }
     
     .Article-3 {
@@ -314,7 +334,16 @@ html{
         .Article-1-3{
             margin: 16px;
             padding: 8px;
+            display: flex;
         }
+    }
+
+    .img-drie{
+        width: 180px;
+    }
+    
+    .third-event{
+        padding-left: 32px;
     }
     
     .Thema-locatie{
