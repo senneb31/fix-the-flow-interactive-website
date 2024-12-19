@@ -22,54 +22,44 @@
     </head>
 
     <body>
-            <header>
+            <header class="header">
                 <img src="dda-logo-whiteDDA-logo.svg" alt="DDA logo" class="DDA-logo"> 
-                    <nav class="navbar">
-                        
-                        <button aria-hidden="true" class="burgermenu">
-                        <img src="Button.svg" alt="hamburger menu">
-                        </button>
-                           
-                        <button aria-hidden="true" class="close-menu">
-                            <img src="kruisje.svg" alt="close menu">
-                        </button>    
-                        <div class="tabs">          
-                        <ul class="nav-menu">
-                            <li class="nav-item"> 
-                                <a class="nav-list" href="Over-ons">OVER ONS</a> 
-                            </li>
+                
 
-                            <li class="nav-item"> 
-                                <a class="nav-list" href="Events">EVENTS</a> 
-                            </li>
-
-                            <li class="nav-item">  
-                                <a class="nav-list" href="Publicaties">PUBLICATIES</a> 
-                            </li>
-
-                            <li class="nav-item"> 
-                                <a class="nav-list" href="Leden">LEDEN</a> 
-                            </li>
-
-                            <li class="nav-item"> 
-                                <a class="nav-list" href="Vacatures">VACATURES</a> 
-                            </li>
-                </div>
-                            <div class="header-rechts">
-                                    <li class="nav-item">  
-                                        <a class="nav-list" href="Inloggen">INLOGGEN</a> 
-                                        <img src="IconPijl-rechts-zwart.svg" alt="pijltje naar rechts">
-                                    </li>
-
-                                    <li class="nav-item">  
-                                        <a class="nav-list" href="Word-lid">WORD LID</a> 
-                                        <img src="IconPijl-rechts-zwart.svg" alt="pijltje naar rechts">
-                                    </li>
-                            </div>
-                        </ul>
-                    </nav>
-                </div>       
-            </header>           
+                   
+                  
+                    <div class="hamburger-class">
+                      <div class="hamburger" onclick="body.classList.toggle('hamburger-open')">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>    
+                      </div>
+                     </div>
+                      
+                    <!-- navigatiebalk -->
+                  
+                      <nav>
+                        <ul>
+                          <div class="links-links">
+                            <li><a class="headerlinkbold" href="#">Over ons</a></li>
+                            <li><a class="linkheader"  href="#">Events</a></li>
+                            <li><a class="linkheader"  href="#">Publicaties</a></li>
+                            <li><a class="linkheader"  href="#">Leden</a></li>
+                            <li><a class="linkheader"  href="#">Vacatures</a></li>
+                          </div>
+                          
+                          <div class="links-rechts">
+                            <li><a class="link-blauw link-arrow-blauw" href="#">Inloggen</a></li>
+                  
+                           <li><a href="#" class="wordlid-button button">Word lid    
+                  
+                              </a></li></div>
+                       </ul>
+                      </nav>
+                   </header>   
     <div class="bovenpagina"> 
         <div class="middle">       
         <img src="IconPijl-icoon.svg" alt="pijltje naar rechts"> <a class="Refresh" href="Terug-naar-home">TERUG NAAR HOME</a>
@@ -497,4 +487,51 @@
 </html>
 
 
+<!-- Oude header
+<nav class="navbar">
+                        
+                        <button aria-hidden="true" class="burgermenu">
+                        <img src="Button.svg" alt="hamburger menu">
+                        </button>
+                           
+                        <button aria-hidden="true" class="close-menu">
+                            <img src="kruisje.svg" alt="close menu">
+                        </button>    
+                        <div class="tabs">          
+                        <ul class="nav-menu">
+                            <li class="nav-item"> 
+                                <a class="nav-list" href="Over-ons">OVER ONS</a> 
+                            </li>
 
+                            <li class="nav-item"> 
+                                <a class="nav-list" href="Events">EVENTS</a> 
+                            </li>
+
+                            <li class="nav-item">  
+                                <a class="nav-list" href="Publicaties">PUBLICATIES</a> 
+                            </li>
+
+                            <li class="nav-item"> 
+                                <a class="nav-list" href="Leden">LEDEN</a> 
+                            </li>
+
+                            <li class="nav-item"> 
+                                <a class="nav-list" href="Vacatures">VACATURES</a> 
+                            </li>
+                </div>
+                            <div class="header-rechts">
+                                    <li class="nav-item">  
+                                        <a class="nav-list" href="Inloggen">INLOGGEN</a> 
+                                        <img src="IconPijl-rechts-zwart.svg" alt="pijltje naar rechts">
+                                    </li>
+
+                                    <li class="nav-item">  
+                                        <a class="nav-list" href="Word-lid">WORD LID</a> 
+                                        <img src="IconPijl-rechts-zwart.svg" alt="pijltje naar rechts">
+                                    </li>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>       
+                
+-->

@@ -1,13 +1,15 @@
-const burgermenuButton = document.querySelector('.burgermenu');
+const openButton = document.querySelector(".hamburger");
 
-burgermenuButton.addEventListener("click", openMenu);
 
-function openMenu(){
-    const deNav = document.querySelector(".header-rechts");
-    deNav.classList.toggle("burgermenu-open");
-}
+openButton.addEventListener("click", openMenu);
 
-const  sluitButton = document.querySelector("burgermenu-open");
 
+function openMenu() {  
+
+  const deNav = document.querySelector("nav");
+
+  deNav.classList.toggle("nav-open"); }
+
+const sluitButton = document.querySelector(".hamburger-open");
 
 
