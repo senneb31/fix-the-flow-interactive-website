@@ -8,7 +8,7 @@ DDA: een pagina waar alle events te zien zijn!
 
 ## Beschrijving
 In deze sprint stonden microinteracties centraal. Ik heb ik mijn website wat microinteracties toegevoegd via CSS en JS. Wat ik in deze website heb geïmplementeerd zijn animaties aan tabs en het hamburger menuutje dat overspringt in een kruisje. Hieronder laat ik zien wat ik daarmee bedoel.
-<<<<<<< HEAD
+
 <img src="menuopen.jpeg" alt="open menu">
 <img src="menuclose.jpeg" alt="sluit menu">
 
