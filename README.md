@@ -15,7 +15,7 @@ In deze sprint stonden microinteracties centraal. Ik heb ik mijn website wat mic
 =======
 
 ## Kenmerken
-Door de tabs toe te laten verschuiven heb ik keyframes gebruikt. Ik heb transform: translateX gebruikt om de tabs te verschuiven. Ik wilde dat de tabs gingen verschuiven als je er overheen ging met je muis. Hiervoor heb ik in CSS :hover toegevoegd aan de class.
+D.m.v de animatie in het burger menuutje laat ik zien dat het voor de gebruiker duidelijk is dat hij in een menu zit en hoe hij die kan sluiten. Om het menuutje te maken gebruik ik span tags en style ik die in de CSS. Om het kruisje te maken roteer ik de spans 45 graden.
 
 ## Bronnen
 
